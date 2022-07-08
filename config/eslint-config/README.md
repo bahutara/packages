@@ -1,4 +1,4 @@
-# @jeromefitz/eslint-config
+# @bahutara/eslint-config
 
 Custom `eslint-config` setup that can be extended and incorporates:
 
@@ -26,14 +26,14 @@ All currently `cjs` format:
     - `./next` (+ react)
 
 ```sh
-yarn add @jeromefitz/eslint-config --dev
+yarn add @bahutara/eslint-config --dev
 ```
 
 ### Base
 
 ```js
 {
-    "extends": "@jeromefitz/eslint-config"
+    "extends": "@bahutara/eslint-config"
 }
 ```
 
@@ -41,7 +41,7 @@ yarn add @jeromefitz/eslint-config --dev
 
 ```js
 {
-    "extends": "@jeromefitz/eslint-config/jest"
+    "extends": "@bahutara/eslint-config/jest"
 }
 ```
 
@@ -49,7 +49,7 @@ yarn add @jeromefitz/eslint-config --dev
 
 ```js
 {
-    "extends": "@jeromefitz/eslint-config/next"
+    "extends": "@bahutara/eslint-config/next"
 }
 ```
 
@@ -57,7 +57,7 @@ yarn add @jeromefitz/eslint-config --dev
 
 ```js
 {
-    "extends": "@jeromefitz/eslint-config/react"
+    "extends": "@bahutara/eslint-config/react"
 }
 ```
 
@@ -65,6 +65,6 @@ yarn add @jeromefitz/eslint-config --dev
 
 ```js
 {
-    "extends": "@jeromefitz/eslint-config/typescript"
+    "extends": "@bahutara/eslint-config/typescript"
 }
 ```

@@ -3,7 +3,7 @@ const isCI = require('is-ci')
 !isCI && require('dotenv').config({ path: '../../.env' })
 
 const { config: configDefault } = require('../../release.config.cjs')
-const { getConfig } = require('@jeromefitz/semantic')
+const { getConfig } = require('@bahutara/semantic')
 
 const { name } = require('./package.json')
 

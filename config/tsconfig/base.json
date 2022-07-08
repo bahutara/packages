@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "@jeromefitz/tsconfig",
+  "display": "@bahutara/tsconfig",
   "compilerOptions": {
     "allowJs": true,
     "composite": false,
