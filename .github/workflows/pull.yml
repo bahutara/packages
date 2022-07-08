@@ -38,8 +38,8 @@ jobs:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
-      IS_ACTOR_VERIFIED: ${{ github.actor == 'jeromefitz' || github.actor == 'renovate[bot]' }}
-      IS_ACTOR_BAHUTARA: ${{ github.actor == 'jeromefitz' }}
+      IS_ACTOR_VERIFIED: ${{ github.actor == 'bahutara' || github.actor == 'renovate[bot]' }}
+      IS_ACTOR_BAHUTARA: ${{ github.actor == 'bahutara' }}
       IS_ACTOR_DEPENDABOT: ${{ github.actor == 'dependabot[bot]' }}
       IS_ACTOR_RENOVATE: ${{ github.actor == 'renovate[bot]' }}
       IS_LABEL_PNPM: ${{ contains( github.event.pull_request.labels.*.name, '📦 pnpm' ) }}
