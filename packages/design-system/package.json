@@ -1,11 +1,11 @@
 {
   "name": "@bahutara/design-system",
   "version": "0.0.0",
-  "description": "Design System for JeromeFitzgerald.com (Radix UI)",
+  "description": "Design System for laodeaksar.eu.org (Radix UI)",
   "author": {
-    "name": "Jerome Fitzgerald",
-    "email": "j@jeromefitzgerald.com",
-    "url": "https://jeromefitzgerald.com"
+    "name": "Aksar La'ode",
+    "email": "me@laodeaksar.eu.org",
+    "url": "https://laodeaksar.eu.org"
   },
   "keywords": [
     "design system",

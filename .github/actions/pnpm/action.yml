@@ -8,7 +8,7 @@ inputs:
     description: 'Flag if GitHub Actor is verified (bahutara||Renovate) 👱🏻 || 🤖'
     default: false
     type: boolean
-  IS_ACTOR_JEROMEFITZ:
+  IS_ACTOR_BAHUTARA:
     description: 'Flag if GitHub Actor is bahutara 👱🏻'
     required: false
     default: false
@@ -31,7 +31,7 @@ runs:
     #   shell: bash
     #   run: |
     #     echo 'IS_ACTOR_VERIFIED: ${{ inputs.IS_ACTOR_VERIFIED }}'
-    #     echo 'IS_ACTOR_JEROMEFITZ: ${{ inputs.IS_ACTOR_JEROMEFITZ }}'
+    #     echo 'IS_ACTOR_BAHUTARA: ${{ inputs.IS_ACTOR_JEROMEFITZ }}'
     #     echo 'IS_ACTOR_RENOVATE: ${{ inputs.IS_ACTOR_RENOVATE }}'
     #     echo 'IS_LABEL_PNPM: ${{ inputs.IS_LABEL_PNPM }}'
 
@@ -41,8 +41,8 @@ runs:
       shell: bash
       run: |
         git --version
-        git config --global user.name BotJerome
-        git config --global user.email bot@jeromefitzgerald.com
+        git config --global user.name BotBahutara
+        git config --global user.email akhsaras23@gmail.com
 
     - name: '📦 install'
       id: pnpm-install
