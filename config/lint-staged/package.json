@@ -1,16 +1,16 @@
 {
-  "name": "@jeromefitz/lint-staged",
+  "name": "@bahutara/lint-staged",
   "version": "0.0.0",
   "description": "Lint Staged Configuration",
   "author": {
-    "name": "Jerome Fitzgerald",
-    "email": "j@jeromefitzgerald.com",
-    "url": "https://jeromefitzgerald.com"
+    "name": "Aksar La'ode",
+    "email": "me@laodeaksar.eu.org",
+    "url": "https://laodeaksar.eu.org"  
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "config/lint-staged"
   },
   "engines": {

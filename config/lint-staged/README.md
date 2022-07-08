@@ -1,4 +1,4 @@
-# @jeromefitz/lint-staged
+# @bahutara/lint-staged
 
 Custom `lint-staged` setup that can be extended and incorporates:
 
@@ -7,7 +7,7 @@ Custom `lint-staged` setup that can be extended and incorporates:
 ## lint-staged.config
 
 ```sh
-import config from '@jeromefitz/lint-staged'
+import config from '@bahutara/lint-staged'
 
 export default config
 ```
