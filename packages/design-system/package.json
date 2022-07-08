@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/design-system",
+  "name": "@bahutara/design-system",
   "version": "0.0.0",
   "description": "Design System for JeromeFitzgerald.com (Radix UI)",
   "author": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/design-system"
   },
   "engines": {

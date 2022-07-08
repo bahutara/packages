@@ -1,4 +1,4 @@
-# @jeromefitz/conventional-gitmoji
+# @bahutara/conventional-gitmoji
 
 1. 🌉️ A bridge between `gitmoji` and `conventional-commits` configured for `semantic-release`.
 2. 🛠️ A `conventional-changelog` plugin for `semantic-release`.
@@ -6,17 +6,17 @@
 ## Usage
 
 ```sh
-yarn install @jeromefitz/conventional-gitmoji
+yarn install @bahutara/conventional-gitmoji
 ```
 
 ```ts
-import { releaseRules, typeSpecs, types } from '@jeromefitz/conventional-gitmoji`
+import { releaseRules, typeSpecs, types } from '@bahutara/conventional-gitmoji`
 ```
 
 - `releaseRules`: informs `@semantic-release/commit-analyzer`
-- `typeSpecs`: informs `@jeromefitz/release-notes-generator` (via `writerOpts`)
+- `typeSpecs`: informs `@bahutara/release-notes-generator` (via `writerOpts`)
   - `@hack`: This informs three different ways to ensure we catch the change from `gitmoji` to `conventional`
-- `types`: informs `@jeromefitz/git-cz` for the `gitmoji` theme.
+- `types`: informs `@bahutara/git-cz` for the `gitmoji` theme.
 
 ### Commit Analyzer
 
@@ -24,7 +24,7 @@ import { releaseRules, typeSpecs, types } from '@jeromefitz/conventional-gitmoji
   [
     '@semantic-release/commit-analyzer',
     {
-      config: '@jeromefitz/conventional-gitmoji',
+      config: '@bahutara/conventional-gitmoji',
       releaseRules,
     },
   ]
@@ -34,9 +34,9 @@ import { releaseRules, typeSpecs, types } from '@jeromefitz/conventional-gitmoji
 
 ```sh
   [
-    '@jeromefitz/release-notes-generator',
+    '@bahutara/release-notes-generator',
     {
-      config: '@jeromefitz/conventional-gitmoji',
+      config: '@bahutara/conventional-gitmoji',
     },
   ]
 ```
@@ -71,7 +71,7 @@ This expands on the original `conventional-commits` nomenclature to account for 
 
 ### 🚀️ semantic-release
 
-Adds `semver` to each type to inform `@jeromefitz/semantic` how to handle each commit type (and if it is a convential branch type).
+Adds `semver` to each type to inform `@bahutara/semantic` how to handle each commit type (and if it is a convential branch type).
 
 **⚗️ Example(s):**
 

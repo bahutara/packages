@@ -1,4 +1,4 @@
-import { Box, Flex } from '@jeromefitz/design-system/src/components'
+import { Box, Flex } from '@bahutara/design-system/src/components'
 import { useKBar } from 'kbar'
 import * as React from 'react'
 

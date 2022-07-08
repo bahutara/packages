@@ -1,4 +1,4 @@
-import { avoidRateLimit, isObjectEmpty } from '@jeromefitz/utils'
+import { avoidRateLimit, isObjectEmpty } from '@bahutara/utils'
 import _map from 'lodash/map.js'
 import _omit from 'lodash/omit.js'
 import _size from 'lodash/size.js'

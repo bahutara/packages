@@ -15,7 +15,7 @@ interface IAuthor {
  * @hack
  * remove these logins from contributors
  *
- * reason JeromeFitz is here is because most of the time
+ * reason bahutara is here is because most of the time
  *  they are the only one making them in this repo ,haha
  *
  * maybe these should be a configuration setting?

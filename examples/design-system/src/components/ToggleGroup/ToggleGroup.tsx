@@ -2,7 +2,7 @@ import {
   Icon,
   ToggleGroup,
   ToggleGroupItem,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import React from 'react'
 
 const ToggleGroupDemo = () => (

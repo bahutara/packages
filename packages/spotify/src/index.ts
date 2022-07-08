@@ -2,7 +2,7 @@
 import type { Agent } from 'http'
 import { URL as _URL, URLSearchParams } from 'url'
 
-import { asyncForEach, noop as _noop } from '@jeromefitz/utils'
+import { asyncForEach, noop as _noop } from '@bahutara/utils'
 import fetch from 'isomorphic-unfetch'
 import _omit from 'lodash/omit'
 

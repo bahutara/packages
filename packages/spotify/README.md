@@ -1,4 +1,4 @@
-# `@jeromefitz/spotify`
+# `@bahutara/spotify`
 
 Custom API for [`jeromefitzgerald.com/music`](https://jeromefitzgerald.com/music).
 

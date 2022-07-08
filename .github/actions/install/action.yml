@@ -1,7 +1,7 @@
 # name: 'Install'
 name: '📦️  '
 description: 'Localized Install'
-author: 'JeromeFitz'
+author: 'bahutara'
 
 runs:
   using: 'composite'

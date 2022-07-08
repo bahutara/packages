@@ -6,9 +6,9 @@ import type { IReleaseRule } from '../types'
  *
  * @todo
  * - These should be accepted through a config for use by:
- * - @jeromefitz/git-cz
- * - @jeromefitz/semantic
- * - @jeromefitz/release-notes
+ * - @bahutara/git-cz
+ * - @bahutara/semantic
+ * - @bahutara/release-notes
  *
  */
 

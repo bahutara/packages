@@ -1,6 +1,6 @@
-# `@jeromefitz/design-system`
+# `@bahutara/design-system`
 
-Design System for [`jeromefitzgerald.com`](https://jeromefitzgerald.com).
+Design System for [`bahutaragerald.com`](https://jeromefitzgerald.com).
 
 ## Props
 
@@ -85,7 +85,7 @@ Would be nice to _show_ all of this. And the ability to pass configuration so we
 
 This cannot be ported just yet. Wondering if this should instead go to:
 
-- `@jeromefitz/notion` as a Skeleton where only the logic is provided.
+- `@bahutara/notion` as a Skeleton where only the logic is provided.
 
 Then one could use their own styling system via which Components they pass to `getContentNode`\*.
 
@@ -129,7 +129,7 @@ Then one could use their own styling system via which Components they pass to `g
 
 ### ContentNodes
 
-Receives `content` and `images` which comes from `@jeromefitz/notion`.
+Receives `content` and `images` which comes from `@bahutara/notion`.
 
 Cycles through each `node` via `getContentNodes` (=> `getContentType`) to determine:
 

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // @ts-ignore
-import { PageHeading, Text } from '@jeromefitz/design-system/src/components'
+import { PageHeading, Text } from '@bahutara/design-system/src/components'
 
 // import { LoadingDots } from '../components/LoadingDots'
 import { NavigationMenu } from '../components/NavigationMenu'

@@ -3,7 +3,7 @@ import {
   Heading,
   LoadingDots,
   Separator,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 
 /**
  * @note uh, this seems odd to say the least

@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "Example: Design System Playground to test Components",
   "author": {
-    "name": "Jerome Fitzgerald",
-    "email": "j@jeromefitzgerald.com",
-    "url": "https://jeromefitzgerald.com"
+    "name": "Aksar La'ode",
+    "email": "me@laodeaksar.eu.org",
+    "url": "https://laodeaksar.eu.org"
   },
   "keywords": [
     "design system",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "examples/design-system"
   },
   "engines": {
@@ -29,7 +29,7 @@
     "web:dev": "next dev -p 3001"
   },
   "dependencies": {
-    "@jeromefitz/design-system": "workspace:*",
+    "@bahutara/design-system": "workspace:*",
     "@heroicons/react": "1.0.6",
     "@mantine/hooks": "4.2.12",
     "date-fns": "2.28.0",

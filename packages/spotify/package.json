@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/spotify",
+  "name": "@bahutara/spotify",
   "version": "0.0.0",
   "description": "Spotify Wrapper for: Now Playing, Top Artists, & Top Tracks",
   "author": {
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/spotify"
   },
   "engines": {
@@ -39,7 +39,7 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@jeromefitz/utils": "workspace:*",
+    "@bahutara/utils": "workspace:*",
     "@types/lodash": "4.14.182",
     "lodash": "4.17.21"
   },
@@ -49,7 +49,7 @@
     "plaiceholder": "2.4.0"
   },
   "peerDependencies": {
-    "@jeromefitz/utils": "^2.1.0",
+    "@bahutara/utils": "^2.1.0",
     "lodash": "^4.17.21"
   },
   "type": "module",

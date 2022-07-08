@@ -1,4 +1,4 @@
-import { sortObject } from '@jeromefitz/utils'
+import { sortObject } from '@bahutara/utils'
 import _map from 'lodash/map.js'
 import _omit from 'lodash/omit.js'
 

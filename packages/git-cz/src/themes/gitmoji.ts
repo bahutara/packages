@@ -1,5 +1,5 @@
-import { types } from '@jeromefitz/conventional-gitmoji'
-import type { IReleaseRule } from '@jeromefitz/conventional-gitmoji'
+import { types } from '@bahutara/conventional-gitmoji'
+import type { IReleaseRule } from '@bahutara/conventional-gitmoji'
 
 type BranchProps = {
   format: string

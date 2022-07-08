@@ -99,7 +99,7 @@ class Client extends _Client {
       routeType: any
       slug?: any
     }) => {
-      // console.dir(`📦️ [@jeromefitz/notion] => ${DATA_TYPES.LISTING}`)
+      // console.dir(`📦️ [@bahutara/notion] => ${DATA_TYPES.LISTING}`)
       return await getNotionListing({
         ...props,
         config: this.#config,
@@ -114,7 +114,7 @@ class Client extends _Client {
       routeType: any
       slug: any
     }) => {
-      // console.dir(`📦️ [@jeromefitz/notion] => ${DATA_TYPES.LISTING_BY_DATE}`)
+      // console.dir(`📦️ [@bahutara/notion] => ${DATA_TYPES.LISTING_BY_DATE}`)
       return await getNotionListingByDate({
         ...props,
         config: this.#config,
@@ -129,7 +129,7 @@ class Client extends _Client {
       routeType: any
       slug: any
     }) => {
-      // console.dir(`📦️ [@jeromefitz/notion] => ${DATA_TYPES.SLUG}`)
+      // console.dir(`📦️ [@bahutara/notion] => ${DATA_TYPES.SLUG}`)
       return await getNotionSlug({
         ...props,
         config: this.#config,
@@ -144,7 +144,7 @@ class Client extends _Client {
       routeType: any
       slug: any
     }) => {
-      // console.dir(`📦️ [@jeromefitz/notion] => ${DATA_TYPES.SLUG_BY_ROUTE}`)
+      // console.dir(`📦️ [@bahutara/notion] => ${DATA_TYPES.SLUG_BY_ROUTE}`)
       return await getNotionSlugByRoute({
         ...props,
         config: this.#config,

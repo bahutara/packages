@@ -1,4 +1,4 @@
-import { stringToUUID } from '@jeromefitz/utils'
+import { stringToUUID } from '@bahutara/utils'
 import Slugger from 'github-slugger'
 import _size from 'lodash/size.js'
 

@@ -9,8 +9,8 @@ import {
   SheetContent,
   SheetTrigger,
   Text,
-} from '@jeromefitz/design-system/src/components'
-import { darkTheme } from '@jeromefitz/design-system/src/lib/stitches.config'
+} from '@bahutara/design-system/src/components'
+import { darkTheme } from '@bahutara/design-system/src/lib/stitches.config'
 import { useKBar } from 'kbar'
 import { useTheme } from 'next-themes'
 import * as React from 'react'

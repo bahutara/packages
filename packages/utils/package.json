@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/utils",
+  "name": "@bahutara/utils",
   "version": "0.0.0",
   "description": "Utilities used by @JeromeFitz that may be helpful",
   "author": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/utils"
   },
   "engines": {

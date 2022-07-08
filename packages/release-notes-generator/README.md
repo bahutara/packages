@@ -1,4 +1,4 @@
-# @jeromefitz/release-notes-generator
+# @bahutara/release-notes-generator
 
 Heavily customized fork (_cannot_ stress that enough) of [`conventional-changelog`](https://github.com/conventional-changelog/conventional-changelog) and [`release-notes-generator`](https://github.com/semantic-release/release-notes-generator).
 
@@ -8,9 +8,9 @@ May move to `remark` once `semantic-release` is ESM.
 
 ```sh
 [
-  '@jeromefitz/release-notes-generator',
+  '@bahutara/release-notes-generator',
   {
-    config: '@jeromefitz/conventional-gitmoji',
+    config: '@bahutara/conventional-gitmoji',
   },
 ]
 ```
@@ -20,5 +20,5 @@ May move to `remark` once `semantic-release` is ESM.
 Also add the `changelog-config` customization:
 
 ```sh
-yarn add @jeromefitz/release-notes-generator @jeromefitz/conventional-gitmoji
+yarn add @bahutara/release-notes-generator @bahutara/conventional-gitmoji
 ```

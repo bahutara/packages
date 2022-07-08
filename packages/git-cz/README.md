@@ -1,4 +1,4 @@
-# 🥳️ git(moji)-cz => @jeromefitz/git-cz
+# 🥳️ git(moji)-cz => @bahutara/git-cz
 
 ## 🍴️ Why this Fork
 
@@ -25,7 +25,7 @@ I needed to customize some things, and seemed like the intent was breaking away 
 - [ ] TypeScript Migration
   - Eventually getting there
 
-📝️ Note: `@jeromefitz/git-cz-v7.0.0` is the main breaking off point
+📝️ Note: `@bahutara/git-cz-v7.0.0` is the main breaking off point
 
 ## 🔧️ Custom config
 
@@ -33,7 +33,7 @@ You can provide a custom configuration in a `changelog.config.js` file in your r
 
 git-cz will search for the closest config file.
 
-- [Default Config](https://github.com/JeromeFitz/git-cz/blob/main/src/themes/gitmoji.js))
+- [Default Config](https://github.com/bahutara/git-cz/blob/main/src/themes/gitmoji.js))
 
 ## 🚧️ Non-interactive mode
 
@@ -91,7 +91,7 @@ You can configure your own using the following fields:
 - `{subject}`
 - `{type}`
 
-These are the _only_ fields that will be dynamically replaced by `@jeromefitz/git-cz`.
+These are the _only_ fields that will be dynamically replaced by `@bahutara/git-cz`.
 
 These are not `${type}` so in your configuration if you need to pass dynamically values to `format` you can while keeping these separate. Helpful for when adding ` [skip ci]` to `format` conditionally.
 

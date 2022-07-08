@@ -1,4 +1,4 @@
-# @jeromefitz/tsconfig
+# @bahutara/tsconfig
 
 Custom `tsconfig` setup that can be extended.
 
@@ -15,7 +15,7 @@ All currently `cjs` format:
   - `./react-native`
 
 ```sh
-yarn add @jeromefitz/tsconfig --dev
+yarn add @bahutara/tsconfig --dev
 ```
 
 ### Example
@@ -23,7 +23,7 @@ yarn add @jeromefitz/tsconfig --dev
 ```json
 {
   // ...
-  "extends": "@jeromefitz/tsconfig/node14.json"
+  "extends": "@bahutara/tsconfig/node14.json"
   // ...
 }
 ```

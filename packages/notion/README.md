@@ -1,4 +1,4 @@
-# 🚧️ 🚧️ 🚧️ `@jeromefitz/notion` 🚧️ 🚧️ 🚧️
+# 🚧️ 🚧️ 🚧️ `@bahutara/notion` 🚧️ 🚧️ 🚧️
 
 Wrapper stuff for [`jeromefitzgerald.com`](https://jeromefitzgerald.com).
 
@@ -25,7 +25,7 @@ You will need a few values set up in Notion and identified in a configuration fi
 This API extends `@notionhq/client` so you will extend this one instead.
 
 ```tsx
-import { Client } from '@jeromefitz/notion'
+import { Client } from '@bahutara/notion'
 
 import { notionConfig as config } from '~config/websites'
 

@@ -1,4 +1,4 @@
-import { parserOpts, writerOpts } from '@jeromefitz/conventional-gitmoji'
+import { parserOpts, writerOpts } from '@bahutara/conventional-gitmoji'
 import type { PluginSpec } from 'semantic-release'
 
 import type { PluginOptions } from './pluginOptions.types'
@@ -30,15 +30,15 @@ const getPluginOptions = (optionsPassed?: PluginOptions): PluginSpec[] => {
   const releaseNotesConfig = [
     '@semantic-release/release-notes-generator',
     {
-      config: '@jeromefitz/conventional-gitmoji',
+      config: '@bahutara/conventional-gitmoji',
       parserOpts,
       writerOpts,
     },
   ]
   const releaseNotesCustomConfig = [
-    '@jeromefitz/release-notes-generator',
+    '@bahutara/release-notes-generator',
     {
-      config: '@jeromefitz/conventional-gitmoji',
+      config: '@bahutara/conventional-gitmoji',
     },
   ]
 

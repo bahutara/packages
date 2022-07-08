@@ -11,9 +11,7 @@ const runNonInteractiveMode = (
 ) => {
   //
   console.log(colorize`{yellow.bold 🚧️  runNonInteractiveMode is not finished}`)
-  console.log(
-    colorize`{yellow 🤕️  Help at: https://github.com/JeromeFitz/packages}`
-  )
+  console.log(colorize`{yellow 🤕️  Help at: https://github.com/bahutara/packages}`)
 
   const answers = {
     subject,

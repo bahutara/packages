@@ -1,15 +1,15 @@
 # name: 'pnpm'
 name: '🔒  '
 description: 'pnpm lockfile hack'
-author: 'JeromeFitz'
+author: 'bahutara'
 
 inputs:
   IS_ACTOR_VERIFIED:
-    description: 'Flag if GitHub Actor is verified (JeromeFitz||Renovate) 👱🏻 || 🤖'
+    description: 'Flag if GitHub Actor is verified (bahutara||Renovate) 👱🏻 || 🤖'
     default: false
     type: boolean
   IS_ACTOR_JEROMEFITZ:
-    description: 'Flag if GitHub Actor is JeromeFitz 👱🏻'
+    description: 'Flag if GitHub Actor is bahutara 👱🏻'
     required: false
     default: false
     type: boolean

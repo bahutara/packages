@@ -7,7 +7,7 @@ import {
   Link,
   Separator,
   Text,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import NextLink from 'next/link'
 
 // @todo(dynamic) notion api, upcoming event or evergreen info

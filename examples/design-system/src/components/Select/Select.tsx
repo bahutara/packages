@@ -16,7 +16,7 @@ import {
   SelectSeparator,
   SelectScrollUpButton,
   SelectScrollDownButton,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import * as React from 'react'
 
 const defaultValue = 'blueberry'

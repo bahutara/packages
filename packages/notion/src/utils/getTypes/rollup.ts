@@ -5,7 +5,7 @@ import type { RollupFunction } from '../../schema'
 import getTypes from '../../utils/getTypes'
 
 /**
- * @note(notion) https://github.com/JeromeFitz/packages/issues/631
+ * @note(notion) https://github.com/bahutara/packages/issues/631
  */
 type Rollup = {
   type: 'array'

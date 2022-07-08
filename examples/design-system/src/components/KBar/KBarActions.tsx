@@ -1,4 +1,4 @@
-import { Icon, Toaster } from '@jeromefitz/design-system/src/components'
+import { Icon, Toaster } from '@bahutara/design-system/src/components'
 import { parseISO } from 'date-fns'
 import { format } from 'date-fns-tz'
 import { useKBar } from 'kbar'

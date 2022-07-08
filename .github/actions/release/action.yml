@@ -1,7 +1,7 @@
 # name: 'Release'
 name: '🏷️  '
 description: 'Localized Release'
-author: 'JeromeFitz'
+author: 'bahutara'
 
 inputs:
   GH_TOKEN:

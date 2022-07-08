@@ -51,8 +51,8 @@ export default pubsub()
 /*
 // init content
 //
-import { pubsub } from '@jeromefitz/utils'
-import type { Unsubscribe } from '@jeromefitz/utils'
+import { pubsub } from '@bahutara/utils'
+import type { Unsubscribe } from '@bahutara/utils'
 
 
   React.useEffect(() => {
@@ -67,7 +67,7 @@ import type { Unsubscribe } from '@jeromefitz/utils'
 /*
 // somewhere else
 //
-import { pubsub } from '@jeromefitz/utils';
+import { pubsub } from '@bahutara/utils';
 
 pubsub.publish('fetchXyz');
 

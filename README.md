@@ -1,4 +1,4 @@
-# `@jeromefitz/packages`
+# `@bahutara/packages`
 
 Monorepo (via [📦 pnpm](https://github.com/pnpm/pnpm) and [🔺 turbo](https://github.com/vercel/turborepo)) for tools I use frequently in various projects, people, and companies I work with.
 
@@ -10,28 +10,28 @@ Monorepo (via [📦 pnpm](https://github.com/pnpm/pnpm) and [🔺 turbo](https:/
 
 ### 🔧 Configuration
 
-Originally was all-in-one as `@jeromefitz/codestyle`, these have been broken out for separate maintainability and ala-carte implementation.
+Originally was all-in-one as `@bahutara/codestyle`, these have been broken out for separate maintainability and ala-carte implementation.
 
 **Spoiler:** They are opinionated, but can be overriden, extended, or ignored. 🙈
 
-- [`@jeromefitz/eslint-config`](https://github.com/JeromeFitz/packages/tree/main/config/eslint-config)
-- [`@jeromefitz/lint-staged`](https://github.com/JeromeFitz/packages/tree/main/config/lint-staged)
-- [`@jeromefitz/prettier-config`](https://github.com/JeromeFitz/packages/tree/main/config/prettier-config)
-- [`@jeromefitz/tsconfig`](https://github.com/JeromeFitz/packages/tree/main/config/tsconfig)
+- [`@bahutara/eslint-config`](https://github.com/bahutara/packages/tree/main/config/eslint-config)
+- [`@bahutara/lint-staged`](https://github.com/bahutara/packages/tree/main/config/lint-staged)
+- [`@bahutara/prettier-config`](https://github.com/bahutara/packages/tree/main/config/prettier-config)
+- [`@bahutara/tsconfig`](https://github.com/bahutara/packages/tree/main/config/tsconfig)
 
 ### 🖼️ Design System
 
 Built with [`radix-ui`](https://www.radix-ui.com) and [`stitches`](https://stitches.dev). A tree-shakeable design system that you can use as much of, or as little of, as you would like.
 
-- [`@jeromefitz/design-system`](https://github.com/JeromeFitz/packages/tree/main/packages/design-system)
+- [`@bahutara/design-system`](https://github.com/bahutara/packages/tree/main/packages/design-system)
   - 🏆 Major props to the [`@radix-ui`](https://github.com/radix-ui) team as this is 🍽️ of sorts.
   - 📘 [`Storybook`](https://storybook.js.org) is included but not all the way there. May
-  - 🚀 Code Example: [`@jeromefitz/websites`](https://github.com/JeromeFitz/websites)
-  - 🚀️ Live Example: [`jeromefitzgerald.com`](https://jeromefitzgerald.com)
+  - 🚀 Code Example: [`@bahutara/websites`](https://github.com/bahutara/websites)
+  - 🚀️ Live Example: [`bahutaragerald.com`](https://jeromefitzgerald.com)
 
 ### ⚡ Release Management Tools
 
-- [`@jeromefitz/conventional-gitmoji`](https://github.com/JeromeFitz/packages/tree/main/packages/conventional-gitmoji)
+- [`@bahutara/conventional-gitmoji`](https://github.com/bahutara/packages/tree/main/packages/conventional-gitmoji)
   - Map [`gitmoji`](https://gitmoji.dev) to [`conventional-commits`](https://www.conventionalcommits.org)
     - `feat => ✨️`
     - `fix => 🐛️`
@@ -40,40 +40,40 @@ Built with [`radix-ui`](https://www.radix-ui.com) and [`stitches`](https://stitc
     - `...`
   - Allows you to keep `semver` consistent by expanding both
   - You _most likely_ do not need to use this, unless you are using this for your separate tooling. This is more of a configuration stop-gap for ...
-- [`@jeromefitz/git-cz`](https://github.com/JeromeFitz/packages/tree/main/packages/git-cz)
+- [`@bahutara/git-cz`](https://github.com/bahutara/packages/tree/main/packages/git-cz)
   - cli prompt for (expanded) [**conventional commits**](https://www.conventionalcommits.org) and **conventional branches** as no one needs to remember all the different types
     - 📝 Formats your commit message for you
     - 🖲️ Integrate with your Issue Tracking System
     - 🔢 Customize which commit types get which semver
-- [`@jeromefitz/semantic`](https://github.com/JeromeFitz/packages/tree/main/packages/semantic)
+- [`@bahutara/semantic`](https://github.com/bahutara/packages/tree/main/packages/semantic)
   - Automatic Semantic Versioning through [`semantic-release`](https://github.com/semantic-release/semantic-release) with support for `gitmoji`.
-- [`@jeromefitz/release-notes-generator`](https://github.com/JeromeFitz/packages/tree/main/packages/release-notes-generator)
+- [`@bahutara/release-notes-generator`](https://github.com/bahutara/packages/tree/main/packages/release-notes-generator)
   - You guessed it, a custom release-notes-generator.
-  - 📝 See the latest output at [the releases page](https://github.com/JeromeFitz/packages/releases).
+  - 📝 See the latest output at [the releases page](https://github.com/bahutara/packages/releases).
 
 ### 🎲 Misc
 
-- [`@jeromefitz/notion`](https://github.com/JeromeFitz/packages/tree/main/packages/notion)
+- [`@bahutara/notion`](https://github.com/bahutara/packages/tree/main/packages/notion)
   - 🗃️ API (hyper-customized `@notionhq/client`) for [`Notion`](https://www.notion.so)
-  - 🚀️ Live Example: [`jeromefitzgerald.com`](https://jeromefitzgerald.com)
-- :octocat: [`@jeromefitz/scripts`](https://github.com/JeromeFitz/packages/tree/main/packages/scripts)
+  - 🚀️ Live Example: [`bahutaragerald.com`](https://jeromefitzgerald.com)
+- :octocat: [`@bahutara/scripts`](https://github.com/bahutara/packages/tree/main/packages/scripts)
   - :octocat: scripts that are used to set up repos and for CI/CD
-- [`@jeromefitz/spotify`](https://github.com/JeromeFitz/packages/tree/main/packages/spotify)
+- [`@bahutara/spotify`](https://github.com/bahutara/packages/tree/main/packages/spotify)
   - 🧑‍🎤️ API to gather data on:
     - `now-playing|top-artists|top-tracks`
   - 🖼️ Plus imagery customizations via [plaiceholder](https://plaiceholder.co)
-  - 🚀️ Live Example: [`jeromefitzgerald.com/music`](https://jeromefitzgerald.com/music)
-- 🧰️ [`@jeromefitz/utils`](https://github.com/JeromeFitz/packages/tree/main/packages/utils)
+  - 🚀️ Live Example: [`bahutaragerald.com/music`](https://jeromefitzgerald.com/music)
+- 🧰️ [`@bahutara/utils`](https://github.com/bahutara/packages/tree/main/packages/utils)
   - Scripts that are generically re-used throughout
 
 ### 🔜 Coming Soon(ish)
 
 - `next-notion`
-  - Next.js implementation for `@jeromefitz/notion`
+  - Next.js implementation for `@bahutara/notion`
 
 ### 🎁 Bonus
 
-- [`@jeromefitz/dotfiles`](https://github.com/JeromeFitz/dotfiles): Separate from this repository
+- [`@bahutara/dotfiles`](https://github.com/bahutara/dotfiles): Separate from this repository
   - zsh + homebrew computer setup
 
 ## 👷️ CI/CD Overview

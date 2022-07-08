@@ -8,7 +8,7 @@ import {
   Separator,
   Text,
   VisuallyHidden,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import NextLink from 'next/link'
 
 function Home({}) {

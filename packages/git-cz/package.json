@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/git-cz",
+  "name": "@bahutara/git-cz",
   "version": "0.0.0",
   "description": "git(moji)-cz => conventional commits, gitflow branching",
   "author": {
@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/git-cz"
   },
   "keywords": [
@@ -49,7 +49,7 @@
     "dry:run": "pnpm run build && node ./dist/cli"
   },
   "devDependencies": {
-    "@jeromefitz/conventional-gitmoji": "workspace:*",
+    "@bahutara/conventional-gitmoji": "workspace:*",
     "@types/lodash": "4.14.182",
     "chai": "4.3.6",
     "isomorphic-unfetch": "3.1.0",
@@ -71,7 +71,7 @@
     "word-wrap": "1.2.3"
   },
   "peerDependencies": {
-    "@jeromefitz/conventional-gitmoji": "^3.2.0",
+    "@bahutara/conventional-gitmoji": "^3.2.0",
     "lodash": "^4.17.21"
   },
   "bin": {

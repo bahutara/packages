@@ -24,24 +24,24 @@
       "outputs": ["coverage/**"],
       "dependsOn": ["lint", "build"]
     },
-    "@jeromefitz/git-cz#build": {
-      "dependsOn": ["@jeromefitz/conventional-gitmoji#build"],
+    "@bahutara/git-cz#build": {
+      "dependsOn": ["@bahutara/conventional-gitmoji#build"],
       "inputs": ["src/**", "*.cjs", "package.json"]
     },
-    "@jeromefitz/notion#build": {
-      "dependsOn": ["@jeromefitz/utils#build"],
+    "@bahutara/notion#build": {
+      "dependsOn": ["@bahutara/utils#build"],
       "inputs": ["src/**", "*.cjs", "package.json"]
     },
-    "@jeromefitz/semantic#build": {
+    "@bahutara/semantic#build": {
       "dependsOn": [
-        "@jeromefitz/conventional-gitmoji#build",
-        "@jeromefitz/git-cz#build",
-        "@jeromefitz/release-notes-generator#build"
+        "@bahutara/conventional-gitmoji#build",
+        "@bahutara/git-cz#build",
+        "@bahutara/release-notes-generator#build"
       ],
       "inputs": ["src/**", "*.cjs", "package.json"]
     },
-    "@jeromefitz/spotify#build": {
-      "dependsOn": ["@jeromefitz/utils#build"],
+    "@bahutara/spotify#build": {
+      "dependsOn": ["@bahutara/utils#build"],
       "inputs": ["src/**", "*.cjs", "package.json"]
     }
   }

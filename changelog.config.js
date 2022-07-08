@@ -64,7 +64,7 @@ const branch = isOverride
       format: '{branchType}{branchName}',
       prefix: '',
       questions: ['branchFlag', 'branchTypes', 'branchName'],
-      url: 'https://github.com/JeromeFitz/packages/issues/',
+      url: 'https://github.com/bahutara/packages/issues/',
     }
   : {}
 

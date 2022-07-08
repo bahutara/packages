@@ -17,11 +17,11 @@ import {
   Separator,
   TextField,
   Toaster,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import type {
   IToast,
   IToastVariant,
-} from '@jeromefitz/design-system/src/components/Toast/Toast.types'
+} from '@bahutara/design-system/src/components/Toast/Toast.types'
 import _debounce from 'lodash/debounce'
 import * as React from 'react'
 

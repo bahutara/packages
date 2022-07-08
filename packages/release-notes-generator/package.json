@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/release-notes-generator",
+  "name": "@bahutara/release-notes-generator",
   "version": "0.0.0",
   "description": "Custom Release Note Generator for Semantic Release.",
   "author": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/release-notes-generator"
   },
   "engines": {

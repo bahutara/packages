@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/scripts",
+  "name": "@bahutara/scripts",
   "version": "0.0.0",
   "description": "Scripts",
   "author": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/scripts"
   },
   "engines": {

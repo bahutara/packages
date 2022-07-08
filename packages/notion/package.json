@@ -1,5 +1,5 @@
 {
-  "name": "@jeromefitz/notion",
+  "name": "@bahutara/notion",
   "version": "0.0.0",
   "description": "Notion: Custom Client for jeromefitzgerald.com",
   "author": {
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "packages/notion"
   },
   "engines": {
@@ -47,13 +47,13 @@
     "github-slugger": "1.4.0"
   },
   "devDependencies": {
-    "@jeromefitz/utils": "workspace:*",
+    "@bahutara/utils": "workspace:*",
     "@types/github-slugger": "1.3.0",
     "@types/lodash": "4.14.182",
     "lodash": "4.17.21"
   },
   "peerDependencies": {
-    "@jeromefitz/utils": "^2.1.0",
+    "@bahutara/utils": "^2.1.0",
     "lodash": "^4.17.21"
   },
   "type": "module",

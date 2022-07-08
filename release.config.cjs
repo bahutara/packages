@@ -1,7 +1,7 @@
 // /* eslint-disable import/order */
 // const isCI = require('is-ci')
 // !isCI && require('dotenv').config({ path: './.env' })
-// const { getConfig } = require('@jeromefitz/semantic')
+// const { getConfig } = require('@bahutara/semantic')
 const _map = require('lodash/map.js')
 
 const { getConfig } = require('./packages/semantic/dist/index.cjs')
@@ -31,7 +31,7 @@ const config = {
   branches,
   contributorsProhibitList: {
     email: [],
-    login: ['BotJerome', 'JeromeFitz'],
+    login: ['BotJerome', 'bahutara'],
   },
 }
 

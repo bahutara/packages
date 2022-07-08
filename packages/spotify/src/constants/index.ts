@@ -27,7 +27,7 @@ const OFFSET = 0
 const OMIT_FIELDS = ['album', 'artists', 'available_markets']
 
 // @todo(package.json) dynamic please
-const PACKAGE_NAME = '@jeromefitz/spotify'
+const PACKAGE_NAME = '@bahutara/spotify'
 const PACKAGE_VERSION = '2.1.0'
 
 export {

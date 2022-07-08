@@ -47,12 +47,12 @@
       "matchPackageNames": ["eslint-config-next", "next"]
     },
     {
-      "assignees": ["JeromeFitz"],
+      "assignees": ["bahutara"],
       "commitMessagePrefix": "⬆️  (deps)",
       "groupName": "radix-ui 🌐 ...",
       "groupSlug": "radix-ui",
       "matchPackagePatterns": ["^@radix-ui/"],
-      "reviewers": ["JeromeFitz"]
+      "reviewers": ["bahutara"]
     },
     {
       "commitMessagePrefix": "⬆️  (deps)",

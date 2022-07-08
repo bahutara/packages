@@ -19,7 +19,7 @@ import {
   NavigationMenuViewportPosition,
   Focused,
   Selected,
-} from '@jeromefitz/design-system/src/components'
+} from '@bahutara/design-system/src/components'
 import { LayoutGroup } from 'framer-motion'
 import NextLink from 'next/link'
 import * as React from 'react'

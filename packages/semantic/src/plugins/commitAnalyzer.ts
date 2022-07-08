@@ -1,5 +1,5 @@
-import { releaseRules as releaseRulesDefault } from '@jeromefitz/conventional-gitmoji'
-import type { IReleaseRule } from '@jeromefitz/conventional-gitmoji'
+import { releaseRules as releaseRulesDefault } from '@bahutara/conventional-gitmoji'
+import type { IReleaseRule } from '@bahutara/conventional-gitmoji'
 import type { PluginSpec } from 'semantic-release'
 
 const commitAnalyzer = (releaseRulesPassed: IReleaseRule[] = []): PluginSpec => {
@@ -8,7 +8,7 @@ const commitAnalyzer = (releaseRulesPassed: IReleaseRule[] = []): PluginSpec => 
   return [
     '@semantic-release/commit-analyzer',
     {
-      config: '@jeromefitz/conventional-gitmoji',
+      config: '@bahutara/conventional-gitmoji',
       releaseRules,
     },
   ]
