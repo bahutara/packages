@@ -1,0 +1,75 @@
+{
+  "name": "@jeromefitz/packages",
+  "author": {
+    "name": "Jerome Fitzgerald",
+    "email": "j@jeromefitzgerald.com",
+    "url": "https://jeromefitzgerald.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/jeromefitz/packages.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "----": "# @turbo scripts",
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "clean:install": "turbo run clean && ./scripts/clean.sh",
+    "---- ": "# @lint",
+    "pretty-quick": "pretty-quick",
+    "lint:fix": "turbo run lint:fx ",
+    "lint": "turbo run lint",
+    "----  ": "# @ci",
+    "postinstall": "is-ci || husky install",
+    "postpublish": "pinst --enable",
+    "preinstall": "npx only-allow pnpm",
+    "prepublishOnly": "pinst --disable",
+    "----   ": "# @semantic-release",
+    "semantic-release": "pnpm semantic-release:mono",
+    "semantic-release:mono": "pnpm --filter @jeromefitz/* -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
+    "semantic-release:dry": "pnpm --filter @jeromefitz/* -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo --dry-run",
+    "----    ": "# @development",
+    "branch": "git-cz -m branch --allow-empty",
+    "commit": "ALLOW_EMPTY=--allow-empty git commit --allow-empty",
+    "generate:releaseRules": "node ./packages/semantic/scripts/generateReleaseRules.js && pnpm run lint:fix",
+    "dry:run": "turbo run clean --scope=*git-cz* && turbo run build --scope=*git-cz* && node ./packages/git-cz/dist/cli",
+    "ds:build": "turbo run build --scope=*design-system*",
+    "ds:clean": "turbo run clean --scope=*design-system*",
+    "ds:dev": "turbo run dev --scope=*design-system*"
+  },
+  "dependencies": {
+    "@babel/eslint-parser": "7.18.2",
+    "@jeromefitz/conventional-gitmoji": "workspace:*",
+    "@jeromefitz/eslint-config": "workspace:*",
+    "@jeromefitz/git-cz": "workspace:*",
+    "@jeromefitz/lint-staged": "workspace:*",
+    "@jeromefitz/prettier-config": "workspace:*",
+    "@jeromefitz/release-notes-generator": "workspace:*",
+    "@jeromefitz/semantic": "workspace:*",
+    "@jeromefitz/tsconfig": "workspace:*",
+    "@manypkg/cli": "0.19.1",
+    "@types/is-ci": "3.0.0",
+    "@types/node": "16.11.7",
+    "dotenv": "16.0.1",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.3",
+    "lodash": "4.17.21",
+    "pretty-quick": "3.1.3",
+    "pinst": "3.0.0",
+    "semantic-release": "19.0.3",
+    "semantic-release-monorepo": "7.0.5",
+    "tsup": "6.1.3",
+    "turbo": "1.3.1"
+  }
+}

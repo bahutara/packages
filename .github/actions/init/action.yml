@@ -1,0 +1,22 @@
+# name: 'Init'
+name: '💽️  '
+description: 'Localized Init'
+author: 'JeromeFitz'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: '🔧  pnpm'
+      id: pnpm-setup
+      uses: pnpm/action-setup@v2.2.2
+      with:
+        version: 7
+
+    - name: '💽️  Node'
+      id: node-setup
+      uses: actions/setup-node@v3
+      with:
+        # architecture: 'x64'
+        cache-dependency-path: pnpm-lock.yaml
+        cache: 'pnpm'
+        node-version: 16

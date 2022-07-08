@@ -1,0 +1,15 @@
+#!/bin/sh
+
+[ -n "$CI" ] && exit 0
+
+if ps -o args= $PPID | grep -E -q ' --no-verify| -n | -n$' ; then
+:
+elif ps -o args= $PPID | grep -E -q ' --continue| -c | -c$' ; then
+:
+else
+:
+    pnpm run pretty-quick --staged
+    exec < /dev/tty
+    # pnpm run git-cz --hook || true
+    node ./packages/git-cz/dist/cli.js --hook || true
+fi

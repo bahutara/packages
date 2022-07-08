@@ -1,0 +1,62 @@
+{
+  "name": "@jeromefitz/semantic",
+  "version": "0.0.0",
+  "description": "Semantic Versioning, Conventional Commits with CI/CD for GitHub Actions.",
+  "author": {
+    "name": "Jerome Fitzgerald",
+    "email": "j@jeromefitzgerald.com",
+    "url": "https://jeromefitzgerald.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "directory": "packages/semantic"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "private": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "---": "",
+    "clean": "rm -rf .turbo && rm -rf dist",
+    "clean:install": "pnpm run clean && rm -rf node_modules",
+    "copy": "mkdir -p ./dist && ./scripts/copy.sh",
+    "--- ": "",
+    "lint:eslint": "eslint ./src --ext cjs,js,jsx,mjs,ts,tsx --max-warnings=0",
+    "lint:prettier": "prettier \"./src/**/*.{cjs,js,jsx,mjs,ts,tsx,json,md,mdx,css,html,yml,yaml,scss}\" --ignore-unknown --loglevel warn",
+    "lint": "pnpm run lint:prettier --check && pnpm run lint:eslint",
+    "lint:fix": "pnpm run lint:eslint --fix && pnpm run lint:prettier --write",
+    "---  ": "",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@jeromefitz/conventional-gitmoji": "workspace:*",
+    "@types/semantic-release": "17.2.3",
+    "@types/title": "3.4.1"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.4",
+    "@semantic-release/npm": "9.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "semantic-release": "19.0.3",
+    "semantic-release-commit-filter": "1.0.2",
+    "title": "3.4.4"
+  },
+  "peerDependencies": {
+    "@jeromefitz/conventional-gitmoji": "^3.3.1"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "typings": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js"
+}
