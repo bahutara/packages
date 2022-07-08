@@ -1,14 +1,14 @@
 {
-  "name": "@jeromefitz/packages",
+  "name": "@bahutara/packages",
   "author": {
-    "name": "Jerome Fitzgerald",
-    "email": "j@jeromefitzgerald.com",
-    "url": "https://jeromefitzgerald.com"
+    "name": "Aksar La'ode",
+    "email": "me@laodeaksar.eu.org",
+    "url": "https://laodeaksar.eu.org"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git"
+    "url": "ssh://git@github.com/bahutara/packages.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -49,13 +49,13 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "7.18.2",
-    "@jeromefitz/conventional-gitmoji": "workspace:*",
-    "@jeromefitz/eslint-config": "workspace:*",
-    "@jeromefitz/git-cz": "workspace:*",
+    "@bahutara/conventional-gitmoji": "workspace:*",
+    "@bahutara/eslint-config": "workspace:*",
+    "@bahutara/git-cz": "workspace:*",
     "@bahutara/lint-staged": "workspace:*",
-    "@jeromefitz/prettier-config": "workspace:*",
-    "@jeromefitz/release-notes-generator": "workspace:*",
-    "@jeromefitz/semantic": "workspace:*",
+    "@bahutara/prettier-config": "workspace:*",
+    "@bahutara/release-notes-generator": "workspace:*",
+    "@bahutara/semantic": "workspace:*",
     "@bahutara/tsconfig": "workspace:*",
     "@manypkg/cli": "0.19.1",
     "@types/is-ci": "3.0.0",

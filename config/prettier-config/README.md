@@ -1,4 +1,4 @@
-# @jeromefitz/prettier-config
+# @bahutara/prettier-config
 
 Quick prettier config to share across
 
@@ -6,6 +6,6 @@ Quick prettier config to share across
 
 ```js
 module.exports = {
-  ...require('@jeromefitz/prettier-config'),
+  ...require('@bahutara/prettier-config'),
 }
 ```

@@ -1,16 +1,16 @@
 {
-  "name": "@jeromefitz/prettier-config",
+  "name": "@bahutara/prettier-config",
   "version": "0.0.0",
   "description": "ESLint Configuration",
   "author": {
-    "name": "Jerome Fitzgerald",
-    "email": "j@jeromefitzgerald.com",
-    "url": "https://jeromefitzgerald.com"
+    "name": "Aksar La'ode",
+    "email": "me@laodeaksar.eu.org",
+    "url": "https://laodeaksar.eu.org"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/jeromefitz/packages.git",
+    "url": "ssh://git@github.com/bahutara/packages.git",
     "directory": "config/eslint-config"
   },
   "engines": {
