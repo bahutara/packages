@@ -17,6 +17,7 @@
     "node": ">=16"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "private": false,
