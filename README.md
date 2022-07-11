@@ -27,7 +27,7 @@ Built with [`radix-ui`](https://www.radix-ui.com) and [`stitches`](https://stitc
   - 🏆 Major props to the [`@radix-ui`](https://github.com/radix-ui) team as this is 🍽️ of sorts.
   - 📘 [`Storybook`](https://storybook.js.org) is included but not all the way there. May
   - 🚀 Code Example: [`@bahutara/websites`](https://github.com/bahutara/websites)
-  - 🚀️ Live Example: [`bahutaragerald.com`](https://jeromefitzgerald.com)
+  - 🚀️ Live Example: [`laodeaksar.eu.org`](https://laodeaksar.eu.org)
 
 ### ⚡ Release Management Tools
 
@@ -55,14 +55,14 @@ Built with [`radix-ui`](https://www.radix-ui.com) and [`stitches`](https://stitc
 
 - [`@bahutara/notion`](https://github.com/bahutara/packages/tree/main/packages/notion)
   - 🗃️ API (hyper-customized `@notionhq/client`) for [`Notion`](https://www.notion.so)
-  - 🚀️ Live Example: [`bahutaragerald.com`](https://jeromefitzgerald.com)
+  - 🚀️ Live Example: [`laodeaksar.eu.org`](https:laodeaksar.eu.org)
 - :octocat: [`@bahutara/scripts`](https://github.com/bahutara/packages/tree/main/packages/scripts)
   - :octocat: scripts that are used to set up repos and for CI/CD
 - [`@bahutara/spotify`](https://github.com/bahutara/packages/tree/main/packages/spotify)
   - 🧑‍🎤️ API to gather data on:
     - `now-playing|top-artists|top-tracks`
   - 🖼️ Plus imagery customizations via [plaiceholder](https://plaiceholder.co)
-  - 🚀️ Live Example: [`bahutaragerald.com/music`](https://jeromefitzgerald.com/music)
+  - 🚀️ Live Example: [`laodeaksar.eu.org/music`](https://jeromefitzgerald.com/music)
 - 🧰️ [`@bahutara/utils`](https://github.com/bahutara/packages/tree/main/packages/utils)
   - Scripts that are generically re-used throughout
 
