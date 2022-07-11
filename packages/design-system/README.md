@@ -1,6 +1,6 @@
 # `@bahutara/design-system`
 
-Design System for [`bahutaragerald.com`](https://jeromefitzgerald.com).
+Design System for [`laodeaksar.eu.org`](https://laodeaksar.eu.org).
 
 ## Props
 

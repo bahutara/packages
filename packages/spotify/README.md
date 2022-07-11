@@ -1,6 +1,6 @@
 # `@bahutara/spotify`
 
-Custom API for [`jeromefitzgerald.com/music`](https://jeromefitzgerald.com/music).
+Custom API for [`laodeaksar.eu.org/music`](https://laodeaksar.eu.org/music).
 
 - `nowPlaying`: Current Track
 - `topArtists`: Top Artists
