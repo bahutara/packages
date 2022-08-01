@@ -48,7 +48,7 @@
     "ds:dev": "turbo run dev --scope=*design-system*"
   },
   "dependencies": {
-    "@babel/eslint-parser": "7.18.2",
+    "@babel/eslint-parser": "7.18.9",
     "@bahutara/conventional-gitmoji": "workspace:*",
     "@bahutara/eslint-config": "workspace:*",
     "@bahutara/git-cz": "workspace:*",
