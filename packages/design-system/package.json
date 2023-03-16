@@ -107,7 +107,7 @@
     "@mantine/hooks": "4.2.12",
     "@radix-ui/colors": "0.1.8",
     "@radix-ui/react-icons": "1.1.1",
-    "@storybook/addon-a11y": "6.5.9",
+    "@storybook/addon-a11y": "6.5.16",
     "@storybook/addon-actions": "6.5.9",
     "@storybook/addon-docs": "6.5.9",
     "@storybook/addon-essentials": "6.5.9",
