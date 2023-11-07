@@ -39,7 +39,7 @@
   "devDependencies": {
     "@bahutara/conventional-gitmoji": "workspace:*",
     "@types/semantic-release": "17.2.3",
-    "@types/title": "3.4.1"
+    "@types/title": "3.4.3"
   },
   "dependencies": {
     "@semantic-release/commit-analyzer": "9.0.2",
@@ -50,7 +50,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "semantic-release": "19.0.3",
     "semantic-release-commit-filter": "1.0.2",
-    "title": "3.4.4"
+    "title": "3.5.3"
   },
   "peerDependencies": {
     "@bahutara/conventional-gitmoji": "^3.3.1"
