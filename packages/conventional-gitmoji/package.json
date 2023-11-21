@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@types/lodash": "4.14.182",
-    "@types/semantic-release": "17.2.3",
+    "@types/semantic-release": "17.2.11",
     "@types/title": "3.4.1",
     "gitmojis": "3.10.0",
     "lodash": "4.17.21"
